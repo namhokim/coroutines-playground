@@ -37,6 +37,7 @@ suspend fun doOneTwoThree19() = coroutineScope {
     job1.cancel()
     job2.cancel()
     job3.cancel()
+    joinAll(job1, job2, job3)
     println("4!")
 }
 
