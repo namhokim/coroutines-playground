@@ -3,7 +3,7 @@ package com.github.namhokim.courseleonardo.ex.part1.section7
 import kotlinx.coroutines.*
 import kotlin.system.measureTimeMillis
 
-suspend fun massiveRun(action: suspend () -> Unit) {
+private suspend fun massiveRun(action: suspend () -> Unit) {
     val n = 100
     val k = 1000
     val elapsed = measureTimeMillis {
