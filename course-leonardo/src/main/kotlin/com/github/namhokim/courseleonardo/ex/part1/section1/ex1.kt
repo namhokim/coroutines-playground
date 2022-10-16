@@ -1,4 +1,4 @@
-package com.github.namhokim.courseleonardo.ex
+package com.github.namhokim.courseleonardo.ex.part1.section1
 
 import kotlinx.coroutines.*
 
